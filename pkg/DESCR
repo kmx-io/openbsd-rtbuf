@@ -1,0 +1,8 @@
+RTBUF - real time buffers
+
+Minimalist framework for real time signal processing in C.
+
+RTBUF is a modular system : you write real time functions in C
+in a library. You can then load these
+libraries and instanciate real time functions into buffers which
+are bound to one another. Almost all memory allocation is static.
