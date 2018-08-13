@@ -6,10 +6,13 @@ include/rtbuf_fun.h
 include/rtbuf_glfw3.h
 include/rtbuf_lib.h
 include/rtbuf_music.h
+include/rtbuf_music_type.h
 include/rtbuf_signal.h
 include/rtbuf_signal_type.h
 include/rtbuf_sndio.h
 include/rtbuf_sndio_type.h
+include/rtbuf_synth.h
+include/rtbuf_synth_type.h
 include/rtbuf_type.h
 include/symbol.h
 lib/librtbuf.a
@@ -18,9 +21,15 @@ lib/librtbuf.la
 lib/librtbuf_glfw3.a
 lib/librtbuf_glfw3.la
 @lib lib/librtbuf_glfw3.so.${LIBrtbuf_glfw3_VERSION}
+lib/librtbuf_music.a
+lib/librtbuf_music.la
+@lib lib/librtbuf_music.so.${LIBrtbuf_music_VERSION}
 lib/librtbuf_signal.a
 lib/librtbuf_signal.la
 @lib lib/librtbuf_signal.so.${LIBrtbuf_signal_VERSION}
 lib/librtbuf_sndio.a
 lib/librtbuf_sndio.la
 @lib lib/librtbuf_sndio.so.${LIBrtbuf_sndio_VERSION}
+lib/librtbuf_synth.a
+lib/librtbuf_synth.la
+@lib lib/librtbuf_synth.so.${LIBrtbuf_synth_VERSION}
